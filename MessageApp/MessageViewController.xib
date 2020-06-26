@@ -12,7 +12,7 @@
                 <outlet property="btnImage" destination="ucu-R7-PfN" id="2VI-jK-bdE"/>
                 <outlet property="btnSend" destination="2Ac-gq-BXl" id="qPq-vb-Qpb"/>
                 <outlet property="tableView" destination="sJi-uC-2Kp" id="KqP-Ts-28M"/>
-                <outlet property="txfInput" destination="r2m-TE-sQF" id="j6Z-jw-upV"/>
+                <outlet property="txvInput" destination="ADp-K0-Hnj" id="ioT-BD-VpS"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,15 +28,13 @@
                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-dT-FXD">
                     <rect key="frame" x="10" y="802" width="394" height="50"/>
                     <subviews>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter message" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="r2m-TE-sQF" customClass="TextField" customModule="MessageApp" customModuleProvider="target">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ADp-K0-Hnj">
                             <rect key="frame" x="0.0" y="0.0" width="294" height="50"/>
                             <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="50" id="yaf-jA-FkE"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
-                        </textField>
+                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                        </textView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-R7-PfN">
                             <rect key="frame" x="294" y="0.0" width="50" height="50"/>
                             <constraints>
