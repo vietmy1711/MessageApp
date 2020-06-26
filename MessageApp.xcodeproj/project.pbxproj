@@ -13,6 +13,13 @@
 		8D2D97A324A440C50049B977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2D97A124A440C50049B977 /* Main.storyboard */; };
 		8D2D97A524A440C60049B977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2D97A424A440C60049B977 /* Assets.xcassets */; };
 		8D2D97A824A440C60049B977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2D97A624A440C60049B977 /* LaunchScreen.storyboard */; };
+		8D2D97B124A441400049B977 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D97AF24A441400049B977 /* MessageViewController.swift */; };
+		8D2D97B224A441400049B977 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D2D97B024A441400049B977 /* MessageViewController.xib */; };
+		8D632B3B24A452FD00A21107 /* SenderChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D632B3924A452FD00A21107 /* SenderChatCell.swift */; };
+		8D632B3C24A452FD00A21107 /* SenderChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D632B3A24A452FD00A21107 /* SenderChatCell.xib */; };
+		8D632B3E24A454F300A21107 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D632B3D24A454F300A21107 /* Message.swift */; };
+		8D632B4124A4651F00A21107 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D632B3F24A4651F00A21107 /* UserCell.swift */; };
+		8D632B4224A4651F00A21107 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D632B4024A4651F00A21107 /* UserCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		8D2D97A424A440C60049B977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D2D97A724A440C60049B977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D2D97A924A440C60049B977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2D97AF24A441400049B977 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		8D2D97B024A441400049B977 /* MessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		8D632B3924A452FD00A21107 /* SenderChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderChatCell.swift; sourceTree = "<group>"; };
+		8D632B3A24A452FD00A21107 /* SenderChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderChatCell.xib; sourceTree = "<group>"; };
+		8D632B3D24A454F300A21107 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8D632B3F24A4651F00A21107 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		8D632B4024A4651F00A21107 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,13 @@
 		8D2D979A24A440C50049B977 /* MessageApp */ = {
 			isa = PBXGroup;
 			children = (
+				8D632B3D24A454F300A21107 /* Message.swift */,
+				8D632B3F24A4651F00A21107 /* UserCell.swift */,
+				8D632B4024A4651F00A21107 /* UserCell.xib */,
+				8D632B3924A452FD00A21107 /* SenderChatCell.swift */,
+				8D632B3A24A452FD00A21107 /* SenderChatCell.xib */,
+				8D2D97AF24A441400049B977 /* MessageViewController.swift */,
+				8D2D97B024A441400049B977 /* MessageViewController.xib */,
 				8D2D979B24A440C50049B977 /* AppDelegate.swift */,
 				8D2D979D24A440C50049B977 /* SceneDelegate.swift */,
 				8D2D979F24A440C50049B977 /* ViewController.swift */,
@@ -127,6 +148,9 @@
 			files = (
 				8D2D97A824A440C60049B977 /* LaunchScreen.storyboard in Resources */,
 				8D2D97A524A440C60049B977 /* Assets.xcassets in Resources */,
+				8D632B4224A4651F00A21107 /* UserCell.xib in Resources */,
+				8D632B3C24A452FD00A21107 /* SenderChatCell.xib in Resources */,
+				8D2D97B224A441400049B977 /* MessageViewController.xib in Resources */,
 				8D2D97A324A440C50049B977 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +164,11 @@
 			files = (
 				8D2D97A024A440C50049B977 /* ViewController.swift in Sources */,
 				8D2D979C24A440C50049B977 /* AppDelegate.swift in Sources */,
+				8D2D97B124A441400049B977 /* MessageViewController.swift in Sources */,
+				8D632B3E24A454F300A21107 /* Message.swift in Sources */,
+				8D632B3B24A452FD00A21107 /* SenderChatCell.swift in Sources */,
 				8D2D979E24A440C50049B977 /* SceneDelegate.swift in Sources */,
+				8D632B4124A4651F00A21107 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
